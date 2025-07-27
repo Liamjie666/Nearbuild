@@ -1,0 +1,48 @@
+{
+  "name": "nerabuild-backend",
+  "version": "1.0.0",
+  "description": "NeraBuild 硬件数据库 API 后端服务",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "crawler": "python scripts/crawler/main.py"
+  },
+  "keywords": ["hardware", "api", "pc-building", "e-commerce"],
+  "author": "NeraBuild Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "joi": "^17.11.0",
+    "axios": "^1.6.2",
+    "redis": "^4.6.11",
+    "node-cron": "^3.0.3",
+    "winston": "^3.11.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.10.4",
+    "@types/compression": "^1.7.5",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.3.3",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.8",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1"
+  }
+} 
