@@ -1,4 +1,4 @@
-# NeraBuild 黑匣装机
+# NeraBuild 黑匣装机（beta版本，api未申请，3d功能未完善）
 
 **All in Black, Build in 3D** - 专业的3D可视化装机平台
 
@@ -238,7 +238,6 @@ FRONTEND_URL=http://localhost:3000
 ## 📞 联系方式
 
 - **项目主页**: [https://github.com/nerabuild/nerabuild](https://github.com/nerabuild/nerabuild)
-- **问题反馈**: [Issues](https://github.com/nerabuild/nerabuild/issues)
 - **功能建议**: [Discussions](https://github.com/nerabuild/nerabuild/discussions)
 
 ---
